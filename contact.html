@@ -5,215 +5,277 @@
         <meta name="description" content="Social">
         <meta name="keywords" content=""/>
         <meta charset="UTF-8">
-
         <title>Contact Us</title>
-
         <!--[if lt IE 9]>
         <script src="resources/js/html5.js"></script>
         <![endif]-->
 
-        <link rel='stylesheet' id='contact-form-7-css'  href='http://www.johnsongillies.co.uk/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=3.9.1' type='text/css' media='all' />
-        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-        <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.johnsongillies.co.uk/xmlrpc.php?rsd" />
-        <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.johnsongillies.co.uk/wp-includes/wlwmanifest.xml" /> 
-        <link rel='prev' title='Commercial' href='http://www.johnsongillies.co.uk/commercial/' />
-        <link rel='next' title='Meet the Team' href='http://www.johnsongillies.co.uk/about-us/meet-the-team/' />
+        <link type='text/css' rel="stylesheet" href="resources/css/styles.css"/>
+        <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
 
-        <link rel='canonical' href='http://www.johnsongillies.co.uk/contact-us/' />
-        <link rel='shortlink' href='http://www.johnsongillies.co.uk/?p=14' />
+        <script type='text/javascript' src="resources/js/jquery.min.js"></script>
+        <script type="text/javascript" src="resources/js/jquery.lavalamp.min.js"></script>
+        <script type='text/javascript' src="resources/js/bootstrap.min.js"></script>
 
-        <!--Conditional Page Loading-->
-        <!--For HOME-->
 
-        <script type="text/javascript" src="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/js/jquery.lavalamp.min.js"></script>
-        <script type="text/javascript" src="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/js/functions.js"></script>
-        <script type="text/javascript" src="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/js/cookie-message.js"></script>
-
-        <script>
+        <script type="text/javascript">
             $(document).ready(function() {
                 $('li.current-menu-item').first().addClass('current');
             });
-
             $(function() {
                 $("ul#menu-main-menu").lavaLamp({
                     speed: 500
                 });
             });
         </script>
-        <link href="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/css/base.css" rel="stylesheet">
-        <link href="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/css/skeleton.css" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/style.css" />
-
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                        m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-
-            ga('create', 'UA-49923339-1', 'johnsongillies.co.uk');
-            ga('send', 'pageview');
-
-        </script>  
-        <script type="text/javascript">
-            var params = {};
-            //params.width=960;
-            params.height = 36;
-            params.fontSize = 13;
-            params.paddingTop = 7;
-            params.fontFamily = "arial";
-            params.background = "#0071B9";
-            params.termsLink = "/cookies/";
-            showCookiesMessage(params);
-
-            $('#acceptCookies').click(function() {
-                $("#cookieMessage").fadeOut(1000);
-                $.cookie('cookiesOk', 'the_value', {expires: 365, path: '/'});
-            });
-        </script>   
-        <!-- WiredMinds eMetrics tracking with Enterprise Edition V5.4 START -->
-        <script type='text/javascript' src='https://count.carrierzone.com/app/count_server/count.js'></script>
-        <script type='text/javascript'><!--
-        wm_custnum = 'd896f864abe6274a';
-            wm_page_name = 'index.php';
-            wm_group_name = '/services/webpages/j/o/johnsongillies.co.uk/public';
-            wm_campaign_key = 'campaign_id';
-            wm_track_alt = '';
-            wiredminds.count();
-            // -->
-        </script>
     </head>
-    <body class="contact-us">
-        <div class="wrapper">
-            <div class="container">
-                <div class="top twelve columns">
-                    <div class="logo five columns alpha">
-                        <img src="http://www.johnsongillies.co.uk/wp-content/themes/johnsongillies/images/logo.png" alt="Johnson Gillies Logo" height="68" width="380"> 
+    <body class="home">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-offset-1 col-md-10">
+                    <div class="row paddin_over_top_20px">
+                        <div class="col-md-6 form-group">
+                            <img class="img-responsive" src="resources/images/logo.png" alt="Real State Logo" height="68" width="380"> 
+                        </div>
                     </div>
-                    <div class="logo seven columns omega">
-                        <p class="social">
-                            <span><a href="http://www.pinterest.com/johnsongillies/boards/" target="_blank">&#xF650;</a></span>
-                            <span><a href="https://www.facebook.com/pages/Johnson-Gillies-Ltd-Chartered-Building-Surveyors-Building-Consultants/266928193337?fref=ts" target="_blank">&#xF610;</a></span>
-                            <span><a href="https://twitter.com/JohnsonGillies" target="_blank">&#xF611;</a></span>
-                            <span><a href="http://www.linkedin.com/company/2789811?trk=vsrp_companies_res_name&trkInfo=VSRPsearchId%3A1492025011380188593622%2CVSRPtargetId%3A2789811%2CVSRPcmpt%3Aprimary" target="_blank">&#xF612;</a></span>
-                        </p>
-                        <p class="phone">+44 (0)20 7377 6247</p>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <ul id="menu-main-menu" class="menu list-unstyled">
+                                <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page  menu-item-16"><a href="index.html">Home</a></li>
+                                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-17"><a href="about.html">About us</a></li>
+                                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="service.html">Our Services</a></li>
+                                <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="commercial.html">Commercial</a></li>
+                                <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="info.html">Company Info</a></li>
+                                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
                     </div>
-                    <nav class="twelve columns alpha">
-                        <ul id="menu-main-menu" class="menu"><li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16"><a href="http://www.johnsongillies.co.uk/">Home</a></li>
-                            <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="http://www.johnsongillies.co.uk/about-us/">About us</a></li>
-                            <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="http://www.johnsongillies.co.uk/our-services/">Our Services</a></li>
-                            <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="http://www.johnsongillies.co.uk/commercial/">Commercial</a></li>
-                            <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="http://www.johnsongillies.co.uk/jg-prime/">JG Prime</a></li>
-                            <li id="menu-item-267" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-267"><a href="http://www.johnsongillies.co.uk/category/news/">News</a>
-                                <ul class="sub-menu">
-                                    <li id="menu-item-266" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-266"><a href="http://www.johnsongillies.co.uk/category/blog/">Blog</a></li>
-                                    <li id="menu-item-226" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-226"><a href="http://www.johnsongillies.co.uk/downloads/">Downloads</a></li>
-                                </ul>
-                            </li>
-                            <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-14 current_page_item menu-item-21"><a href="http://www.johnsongillies.co.uk/contact-us/">Contact Us</a></li>
-                        </ul>	</nav>
-                </div>				<aside class="three columns">
-                    <div class="lhmenu three columns alpha">
-                        <h5>Menu</h5>
-
-
-                        <ul class="clearfix">
-                            <li class="page_item page-item-14 current_page_item"><a href="http://www.johnsongillies.co.uk/contact-us/">Contact Us</a></li>
-                        </ul>
-                    </div>				</aside>
-                <article class="nine columns">
-                    <div class="three columns">
-                        <h1>London Office</h1>
-                        <ul class="contact-details">
-                            <li>22a Ives Street</li>
-                            <li>Chelsea</li>
-                            <li>London</li>
-                            <li>SW3 2ND</li>
-                        </ul>
-                        <ul class="contact-details">
-                            <li>T: +44 (0)207 377 6247</li>
-                            <li>E: <a href="mailto:info@johnsongillies.co.uk?subject=New online enquiry">info@johnsongillies.co.uk</a></li>
-                        </ul>
-                    </div>
-                    <div class="offset-by-one  five columns alpha omega">
-                        <h1>Essex Office</h1>
-                        <ul class="contact-details">
-                            <li>Former HMS Essex</li>
-                            <li>135 Ness Road</li>
-                            <li>Shoeburyness, Essex</li>
-                            <li>SS3 9ES</li>
-                        </ul>
-                        <ul class="contact-details">
-                            <li>T: +44 (0)1702 293 413</li>
-                            <li>F: +44 (0)1702 304 277</li>
-                            <li>E: <a href="mailto:info@johnsongillies.co.uk?subject=New online enquiry">info@johnsongillies.co.uk</a></li>
-                        </ul>
-                    </div>
-                    <div class="nine columns">
-                        <h1>Contact Form</h1>
-                        <div class="wpcf7" id="wpcf7-f24-o1" dir="ltr">
-                            <div class="screen-reader-response"></div>
-                            <form name="" action="/contact-us/#wpcf7-f24-o1" method="post" class="wpcf7-form" novalidate="novalidate">
-                                <div style="display: none;">
-                                    <input type="hidden" name="_wpcf7" value="24" />
-                                    <input type="hidden" name="_wpcf7_version" value="3.9.1" />
-                                    <input type="hidden" name="_wpcf7_locale" value="" />
-                                    <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f24-o1" />
-                                    <input type="hidden" name="_wpnonce" value="654b66b88a" />
+                    <!--about us content-->
+                    <div class="row">
+                        <div class="col-md-3">
+                            <!--                            <aside class="three columns">
+                                                <div class="lhmenu three columns alpha">
+                                                    <h5>Menu</h5>
+                            
+                            
+                                                    <ul class="clearfix">
+                                                        <li class="page_item page-item-14 current_page_item"><a href="http://www.johnsongillies.co.uk/contact-us/">Contact Us</a></li>
+                                                    </ul>
+                                                </div>				</aside>
+                                            <article class="nine columns">
+                                                <div class="three columns">
+                                                    <h1>London Office</h1>
+                                                    <ul class="contact-details">
+                                                        <li>22a Ives Street</li>
+                                                        <li>Chelsea</li>
+                                                        <li>London</li>
+                                                        <li>SW3 2ND</li>
+                                                    </ul>
+                                                    <ul class="contact-details">
+                                                        <li>T: +44 (0)207 377 6247</li>
+                                                        <li>E: <a href="mailto:info@johnsongillies.co.uk?subject=New online enquiry">info@johnsongillies.co.uk</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="offset-by-one  five columns alpha omega">
+                                                    <h1>Essex Office</h1>
+                                                    <ul class="contact-details">
+                                                        <li>Former HMS Essex</li>
+                                                        <li>135 Ness Road</li>
+                                                        <li>Shoeburyness, Essex</li>
+                                                        <li>SS3 9ES</li>
+                                                    </ul>
+                                                    <ul class="contact-details">
+                                                        <li>T: +44 (0)1702 293 413</li>
+                                                        <li>F: +44 (0)1702 304 277</li>
+                                                        <li>E: <a href="mailto:info@johnsongillies.co.uk?subject=New online enquiry">info@johnsongillies.co.uk</a></li>
+                                                    </ul>
+                                                </div>
+                                                <div class="nine columns">
+                                                    <h1>Contact Form</h1>
+                                                    <div class="wpcf7" id="wpcf7-f24-o1" dir="ltr">
+                                                        <div class="screen-reader-response"></div>
+                                                        <form name="" action="/contact-us/#wpcf7-f24-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+                                                            <div style="display: none;">
+                                                                <input type="hidden" name="_wpcf7" value="24" />
+                                                                <input type="hidden" name="_wpcf7_version" value="3.9.1" />
+                                                                <input type="hidden" name="_wpcf7_locale" value="" />
+                                                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f24-o1" />
+                                                                <input type="hidden" name="_wpnonce" value="654b66b88a" />
+                                                            </div>
+                                                            <p>Name* <br />
+                                                                <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </p>
+                                                            <p>Email*<br />
+                                                                <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </p>
+                                                            <p>Phone<br />
+                                                                <span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </p>
+                                                            <p>Enquiry<br />
+                                                                <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
+                                                            <p>Antispam<br />
+                                                                <em>Please enter the code below:</em><br />
+                                                                <input type="hidden" name="_wpcf7_captcha_challenge_captcha-701" value="444732275" /><img class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-captcha-701" width="72" height="24" alt="captcha" src="http://www.johnsongillies.co.uk/wp-content/uploads/wpcf7_captcha/444732275.png" /><br />
+                                                                <span class="wpcf7-form-control-wrap captcha-701"><input type="text" name="captcha-701" value="" size="40" class="wpcf7-form-control wpcf7-captchar" aria-invalid="false" /></span></p>
+                                                            <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
+                                                            <div class="wpcf7-response-output wpcf7-display-none"></div></form></div> 
+                                                </div>
+                                            </article>-->
+                            <aside>
+                                <div class="lhmenu">
+                                    <h5>Menu</h5>
+                                    <ul class="clearfix">
+                                        <li class="page_item page-item-6 current_page_item">
+                                            <a href="contact.html">Contact us</a>
+                                        </li>
+                                    </ul>
+                                </div>				
+                            </aside>
+                        </div>
+                        <div class="col-md-9">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Dhaka Office</h1>
+                                    <ul class="contact-details">
+                                        <li>168, Tejkuni Para</li>
+                                        <li>Gulshan-1, Dhaka, Bangladesh.</li>
+                                        <li>Tel: +88 (0)16 7811 2509</li>
+                                    </ul>
+                                    <ul class="contact-details">
+                                        <li>Email: <a href="">info@real-state.com</a></li>
+                                    </ul>
                                 </div>
-                                <p>Name* <br />
-                                    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </p>
-                                <p>Email*<br />
-                                    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </p>
-                                <p>Phone<br />
-                                    <span class="wpcf7-form-control-wrap phone"><input type="text" name="phone" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" /></span> </p>
-                                <p>Enquiry<br />
-                                    <span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false"></textarea></span> </p>
-                                <p>Antispam<br />
-                                    <em>Please enter the code below:</em><br />
-                                    <input type="hidden" name="_wpcf7_captcha_challenge_captcha-701" value="444732275" /><img class="wpcf7-form-control wpcf7-captchac wpcf7-captcha-captcha-701" width="72" height="24" alt="captcha" src="http://www.johnsongillies.co.uk/wp-content/uploads/wpcf7_captcha/444732275.png" /><br />
-                                    <span class="wpcf7-form-control-wrap captcha-701"><input type="text" name="captcha-701" value="" size="40" class="wpcf7-form-control wpcf7-captchar" aria-invalid="false" /></span></p>
-                                <p><input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit" /></p>
-                                <div class="wpcf7-response-output wpcf7-display-none"></div></form></div> 
-                    </div>
-                </article>
-                <div class="clearfix"></div>
-            </div>
-            <div class="push"></div>
-        </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <h1>Contact Form</h1>
+                                    <form >
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Name*</label>
+                                            </div>
+                                        </div>
+                                        <div class="row  form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Email*</label>
+                                            </div>
+                                        </div>
+                                        <div class="row  form-group">
+                                            <div class="col-md-12">
+                                                <input type="email" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Phone</label>
+                                            </div>
+                                        </div>
+                                        <div class="row  form-group">
+                                            <div class="col-md-12">
+                                                <input type="text" class="form-control">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Enquiry</label>
+                                            </div>
+                                        </div>
+                                        <div class="row  form-group">
+                                            <div class="col-md-12">
+                                                <textarea style="resize: none; width: 100%;"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <label>Antispam</label>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <em>Please enter the code below:</em><br />
+                                                <input type="hidden" name="" value="" />
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col-md-12">
+                                                <img width="72" height="24" alt="captcha" src="" /><br />
+                                                <input type="text"  class="form-control"/>
+                                            </div>
+                                        </div>
+                                        <div class="row  form-group">
+                                            <div class="col-md-offset-10 col-md-2">
+                                                <input type="submit" class="btn btn-default form-control" value="Send">
+                                            </div>
+                                        </div>
 
-        <footer>
-            <div class="container">
-                <div class="contacts">
-                    <ul class="address offset-by-six three columns">
-                        <li class="head">London</li>
-                        <li>22a Ives Street</li>
-                        <li>Chelsea, London, SW3 2ND</li>
-                        <li>Tel: +44 (0)20 7377 6247</li>
-                    </ul>
-                    <ul class="address three columns">
-                        <li class="head">Essex</li>
-                        <li>Former HMS Essex, 135 Ness Road</li>
-                        <li>Shoeburyness, SS3 9ES</li>
-                        <li>Tel: +44 (0)1702 293413</li>
-                    </ul>
-                </div>
-                <div class="slogan">
-                    <p>QUALITY&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;SERVICE&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;VALUE</p>
-                </div>
-                <div class="copyright">
-                    <p class="six columns pull-left align-left">&copy; Copyright Johnson Gillies&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/terms-and-conditions/">Terms and conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/cookies/">Cookies</a></p>
-                    <p class="six columns pull-right align-right"><a href="http://www.insightdesign.co.uk/" target="_blank">Insight Design</a></p>
-                    <div class="clearfix"></div>
+                                    </form>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
+        <div class="footer_bg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-offset-1 col-md-10">
+                        <div class="contacts">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="resources/images/bdlions.png">
+                                </div>
+                                <div class="col-md-4">
+                                    <img class="img-responsive" src="resources/images/2nd_logo.png">
+                                </div>
+                                <div class="col-md-4">
+                                    <ul class="address">
+                                        <li class="head">Dhaka</li>
+                                        <li>168, Tejkuni Para</li>
+                                        <li>Gulshan-1, Dhaka, Bangladesh.</li>
+                                        <li>Tel: +88 (0)16 7811 2509</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slogan_bg">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-md-offset-1 col-md-10">
+                            <div class="slogan">
+                                <p>Nobody Cares More Than Us</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_bg">
+                <div class="container">
+                    <div class="row" >
+                        <div class="col-md-offset-1 col-md-8">
+                            <div class="copyright">
+                                <p>&copy; Copyright Real State&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">Terms and conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="copyright">
+                                <p><a href="https://nazmulislamredoy.wordpress.com/" target="_blank">Designed by Nazmul</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
+
+
+

@@ -92,6 +92,23 @@
     color: #555;
     margin-bottom: 15px;
 }
+.large_content h5{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 1.1;
+    color: inherit;
+    font-family: inherit;
+}
+.large_content ul{
+    list-style-type: none;
+    padding: 0;
+    /*margin: 0;*/
+}
+.large_content ul li{
+    padding-left: 20px;
+}
+
 
 .footer_bg{
     background-color: lightgray; 
@@ -368,13 +385,13 @@ ul.address li  {
 
 .slogan_bg {
     background-color: #8e8e8e;
-     border-bottom: 1px solid #C1C1C1;
+    border-bottom: 1px solid #C1C1C1;
 }
 .slogan {
     text-align: center;
     padding-top: 5px;
     margin-bottom: 5px;
-    
+
 }
 
 .slogan p {
@@ -383,7 +400,7 @@ ul.address li  {
     font-weight: 100;
     letter-spacing: 2px;
     line-height: 33px;
-   
+
 }
 
 .slogan span {
@@ -392,7 +409,7 @@ ul.address li  {
 }
 
 .copyright_bg {
-   background-color: #737373;
+    background-color: #737373;
     border-bottom: 1px solid #C1C1C1;
 }
 .copyright {
