@@ -10,9 +10,7 @@
         <script src="resources/js/html5.js"></script>
         <![endif]-->
 
-        <link type='text/css' rel="stylesheet" id='contact-form-7-css'  href="resources/css/styles.css"/>
-        <link type='text/css' rel="stylesheet" href="resources/css/skeleton.css">
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css" />
+        <link type='text/css' rel="stylesheet" href="resources/css/styles.css"/>
         <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.min.css">
 
         <script type='text/javascript' src="resources/js/jquery.min.js"></script>
@@ -21,36 +19,8 @@
         <script type='text/javascript' src="resources/js/count.js"></script>
         <script type='text/javascript' src="resources/js/bootstrap.min.js"></script>
 
-        <script type="text/javascript">
-            $(window).load(function() {
-                $('#slider').nivoSlider({
-                    effect: 'fade', // Specify sets like: 'fold,fade,sliceDown'
-                    animSpeed: 500, // Slide transition speed
-                    pauseTime: 4000, // How long each slide will show
-                    startSlide: 0, // Set starting Slide (0 index)
-                    slices: 15, // For slice animations
-                    boxCols: 8, // For box animations
-                    boxRows: 4, // For box animations
-                    directionNav: true, // Next & Prev navigation
-                    controlNav: true, // 1,2,3... navigation
-                    controlNavThumbs: false, // Use thumbnails for Control Nav
-                    pauseOnHover: true, // Stop animation while hovering
-                    randomStart: false, // Start on a random slide
-                    beforeChange: function() {
-                    }, // Triggers before a slide transition
-                    afterChange: function() {
-                    }, // Triggers after a slide transition
-                    slideshowEnd: function() {
-                    }, // Triggers after all slides have been shown
-                    lastSlide: function() {
-                    }, // Triggers when last slide is shown
-                    afterLoad: function() {
-                    } // Triggers when slider has loaded
-                });
-            });
-        </script>
 
-        <script>
+        <script type="text/javascript">
             $(document).ready(function() {
                 $('li.current-menu-item').first().addClass('current');
             });
@@ -59,190 +29,225 @@
                     speed: 500
                 });
             });
+            $(document).ready(function() {
+                $('.carousel').carousel({interval: 7000});
+            });
         </script>
-        <script type="text/javascript">
-      $(document).ready(function() {
-        $('.carousel').carousel({interval: 7000});
-      });
-    </script>
     </head>
     <body class="home">
         <div class="container">
             <div class="row">
-            <div class="col-md-offset-1 col-md-10">
-            <div class="row paddin_over_top_20px">
-                    <div class="col-md-6 form-group">
-                        <img class="img-responsive" src="resources/images/logo.png" alt="Real State Logo" height="68" width="380"> 
+                <div class="col-md-offset-1 col-md-10">
+                    <div class="row paddin_over_top_20px">
+                        <div class="col-md-6 form-group">
+                            <img class="img-responsive" src="resources/images/logo.png" alt="Real State Logo" height="68" width="380"> 
+                        </div>
+                        <div class="col-md-6">
+<!--                            <div class="row">
+                                <div class="col-md-12">
+                                    <ul class="list-unstyled list-inline custom">
+                                        <li> <a href="" target="_blank"><img class="img-responsive img-circle" src="resources/images/pinterest.png"></a></li>
+                                        <li><a href="" target="_blank"><img class="img-responsive img-circle" src="resources/images/facebook.png" ></a> </li>
+                                        <li><a href="" target="_blank"><img class="img-responsive img-circle" src="resources/images/twitter.png" ></a> </li>
+                                        <li><a href="" target="_blank"><img class="img-responsive img-circle" src="resources/images/linkedin.png" ></a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="float_phone">+88 (0)19 1231 4466</div>
+                                </div>
+                            </div>-->
+                        </div>
                     </div>
-                <div class="col-md-6">
                     <div class="row">
                         <div class="col-md-12">
-                            <ul class="list-unstyled list-inline">
-                                <li> <a href="" target="_blank"><img class="img-responsive" src="resources/images/pinterest.png"></a></li>
-                                <li><a href="" target="_blank"><img class="img-responsive" src="resources/images/facebook.png" ></a> </li>
-                                <li><a href="" target="_blank"><img class="img-responsive" src="resources/images/twitter.png" ></a> </li>
-                                <li><a href="" target="_blank"><img class="img-responsive" src="resources/images/linkedin.png" ></a> </li>
+                            <ul id="menu-main-menu" class="menu list-unstyled">
+                                <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-16"><a href="index.html">Home</a></li>
+                                <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="about.html">About us</a></li>
+                                <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="service.html">Our Services</a></li>
+                                <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="commercial.html">Commercial</a></li>
+                                <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="info.html">Company Info</a></li>
+                                <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="contact.html">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
+
                     <div class="row">
                         <div class="col-md-12">
-                            <p class="phone">+88 (0)19 1231 4466</p>
+<!--                            <div class="welcomemsg">
+                                <span class="black">Welcome to</span> <span class="blueish bold">Real</span> <span class="redish bold">State</span> <span class="blueish">Limited</span>
+                            </div>-->
+                            <div id="carousel_slider" class="carousel slide slider_border" data-ride="carousel">
+                                    <!-- Indicators -->
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carousel_slider" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carousel_slider" data-slide-to="1"></li>
+                                        <li data-target="#carousel_slider" data-slide-to="2"></li>
+                                    </ol>
+
+                                    <!-- Wrapper for slides -->
+                                    <div class="carousel-inner" role="listbox">
+                                        <div class="item active">
+                                            <img src="resources/images/slide1.jpg" >
+                                            <!--<div class="carousel-caption"></div>-->
+                                        </div>
+                                        <div class="item">
+                                            <img src="resources/images/slide2.jpg" >
+                                            <!--  <div class="carousel-caption"></div>-->
+                                        </div>
+                                        <div class="item">
+                                            <img src="resources/images/slide3.jpg" >
+                                            <!--<div class="carousel-caption"></div>-->
+                                        </div>
+                                    </div>
+
+                                    <!-- Controls -->
+                                    <a class="left carousel-control" href="#carousel_slider" role="button" data-slide="prev">
+                                        <span class="tp-leftarrow " aria-hidden="true"></span>
+                                        <span class="sr-only"></span>
+                                    </a>
+                                    <a class="right carousel-control" href="#carousel_slider" role="button" data-slide="next">
+                                        <span class="tp-rightarrow" aria-hidden="true"></span>
+                                        <span class="sr-only"></span>
+                                    </a>
+                                </div>
+                        </div>
+                    </div>	
+                    <div class="row">
+                        <div class="col-md-9">
+                            <article>
+                                <h1>Real State Building Surveyors</h1>
+                                <p>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and scrambled it to make a type 
+                                    specimen book. It has survived not only five centuries, but also the leap into 
+                                    electronic typesetting, remaining essentially unchanged. It was popularised in 
+                                    the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+                                    and more recently with desktop publishing software like Aldus PageMaker including 
+                                    versions of Lorem Ipsum.
+                                </p>
+                                <p>Neque porro quisquam est qui dolorem ipsum quia dolor</p>
+                            </article>
+                        </div>
+                        <div class="col-md-3">
+                            <aside>
+                                <div class="contact">
+                                    <h5>Contact Us</h5>
+                                    <p>+88 (0)19 1231 4466</p>
+                                    <p><a class="cursor_pointer">info@real-state.com</a></p>
+                                </div>				
+                            </aside>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-3">
+                            <div class="building_servey">
+                                <a class="cursor_pointer">
+                                    <h5>Building Surveys</h5>
+                                    <p>For purchase and building defects</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="development_legis">
+                                <a class="cursor_pointer">
+                                    <h5>Development &amp; Legislation</h5>
+                                    <p>Party walls and building legislation</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="design_construc">
+                                <a class="cursor_pointer">
+                                    <h5>Design &amp; Construction</h5>
+                                    <p>Refurbishment, planning &amp; extensions</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="professional_consult">
+                                <a class="cursor_pointer">
+                                    <h5>Professional Consultancy</h5>
+                                    <p>Dilapidations and Expert Witness</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                        <div class="col-md-offset-2 col-md-4">
+                            <div class="prime">
+                                <a class="cursor_pointer">
+                                    <h5>RS PRIME</h5>
+                                    <p>Services for residential properties of distinction.</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="comm">
+                                <a class="cursor_pointer">
+                                    <h5>RS COMMERCIAL</h5>
+                                    <p>Industrial &amp; retail warehouses, shops, offices and restaurants.</p>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <nav>
-                        <ul id="menu-main-menu" class="menu">
-                            <li id="menu-item-16" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-16"><a href="http://www.johnsongillies.co.uk/">Home</a></li>
-                            <li id="menu-item-17" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17"><a href="about.html">About us</a></li>
-                            <li id="menu-item-18" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-18"><a href="service.html">Our Services</a></li>
-                            <li id="menu-item-19" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-19"><a href="commercial.html">Commercial</a></li>
-                            <li id="menu-item-190" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-190"><a href="info.html">Company Info</a></li>
-                            <li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="contact.html">Contact Us</a></li>
-                        </ul>	
-                    </nav>
-                </div>
-            </div>
-               	
-            <div class="row">
-            <div class="col-md-12">
-<!--                <div class="welcomemsg">
-                    <span class="black">Welcome to</span> <span class="blueish bold">Real</span> <span class="redish bold">State</span> <span class="blueish">Limited</span>
-                </div>-->
-                <div class="">
-                    
-                    
-                    
-                    <div id="carousel_slider" class="carousel slide" data-ride="carousel">
-                        <!-- Indicators -->
-                        <ol class="carousel-indicators">
-                            <li data-target="#carousel_slider" data-slide-to="0" class="active"></li>
-                            <li data-target="#carousel_slider" data-slide-to="1"></li>
-                            <li data-target="#carousel_slider" data-slide-to="2"></li>
-                        </ol>
-
-                        <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox">
-                            <div class="item active">
-                                <img src="resources/images/slide1.jpg" >
-                                <!--<div class="carousel-caption"></div>-->
-                            </div>
-                            <div class="item">
-                                <img src="resources/images/slide2.jpg" >
-<!--                                <div class="carousel-caption"></div>-->
-                            </div>
-                            <div class="item">
-                                <img src="resources/images/slide3.jpg" >
-                                <!--<div class="carousel-caption"></div>-->
-                            </div>
-                        </div>
-
-                        <!-- Controls -->
-                        <a class="left carousel-control" href="#carousel_slider" role="button" data-slide="prev">
-                            <span class="tp-leftarrow " aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                        <a class="right carousel-control" href="#carousel_slider" role="button" data-slide="next">
-                            <span class="tp-rightarrow" aria-hidden="true"></span>
-                            <span class="sr-only"></span>
-                        </a>
-                    </div>
-                    </div>
-                </div>
-            </div>	
-            
-                
-                
-                <div class="row">
-                    <div class="col-md-9">
-                        <article>
-                            <h1>Chartered Building Surveyors</h1>
-                            <p>As a family firm of Chartered Building Surveyors we provide professional advice on specific aspects of property acquisition and occupation. We work on the Design and Development of new buildings as well as the restoration and maintenance of existing property. We provide our services throughout the UK with special emphasis on residential property in central London. Our services include Building acquisition Surveys, Party Walls, Dilapidations and Refurbishments.</p>
-                            <p>Our main services fall under the following headings:</p>
-                        </article>
-
-                    </div>
-                    <div class="col-md-3">
-                        <aside >
-                            <div class="contact">
-                                <h5>Contact Us</h5>
-                                <p>+44 (0)20 7377 6247</p>
-                                <p><a href="mailto:info@johnsongillies.co.uk?subject=General enquiry">info@johnsongillies.co.uk</a></p>
-                            </div>				</aside>
-                    </div>
-                </div>
-                
-                
-           
-            <div class="clearfix"></div>
-            <a href="/our-services/building-surveys/" class="build-serv three columns">
-                <h2>Building Surveys</h2>
-                <p>For purchase and building defects</p>
-            </a>
-            <a href="/our-services/development-legislation/" class="dev-leg three columns">
-                <h2>Development &amp; Legislation</h2>
-                <p>Party walls and building legislation</p>
-            </a>
-            <a href="/our-services/design-construction/" class="des-constr three columns">
-                <h2>Design &amp; Construction</h2>
-                <p>Refurbishment, planning &amp; extensions</p>
-            </a>
-            <a href="/our-services/professional-consultancy/" class="prof-cons three columns">
-                <h2>Professional Consultancy</h2>
-                <p>Dilapidations and Expert Witness</p>
-            </a>
-            <div class="clearfix"></div>
-            <p>&nbsp;</p>
-
-            <div class="other-services offset-by-two four columns">
-                <a href="/jg-prime/" class="framed prime">
-                    <h3>JG PRIME</h3>
-                    <p>Services for residential properties of distinction.</p>
-                </a>
-            </div>
-            <div class="other-services four columns">
-                <a href="/commercial/" class="framed comm">
-                    <h3>JG COMMERCIAL</h3>
-                    <p>Industrial &amp; retail warehouses, shops, offices and restaurants.</p>
-                </a>
-            </div>
-
         </div>
-        </div>
-            </div>
 
-        <div class="container-fluid" style="background-color: lightgray;">
-            <footer>
+        <div class="footer_bg">
                 <div class="container">
-
-
-                    <div class="contacts">
-                        <ul class="address offset-by-six three columns">
-                            <li class="head">London</li>
-                            <li>22a Ives Street</li>
-                            <li>Chelsea, London, SW3 2ND</li>
-                            <li>Tel: +44 (0)20 7377 6247</li>
-                        </ul>
-                        <ul class="address three columns">
-                            <li class="head">Essex</li>
-                            <li>Former HMS Essex, 135 Ness Road</li>
-                            <li>Shoeburyness, SS3 9ES</li>
-                            <li>Tel: +44 (0)1702 293413</li>
-                        </ul>
-                    </div>
-                    <div class="slogan">
-                        <p>QUALITY&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;SERVICE&nbsp;&nbsp;<span>&#8226;</span>&nbsp;&nbsp;VALUE</p>
-                    </div>
-                    <div class="copyright">
-                        <p class="six columns pull-left align-left">&copy; Copyright Johnson Gillies&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/terms-and-conditions/">Terms and conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="/cookies/">Cookies</a></p>
-                        <p class="six columns pull-right align-right"><a href="http://www.insightdesign.co.uk/" target="_blank">Insight Design</a></p>
-                        <div class="clearfix"></div>
+                    <div class="row">
+                        <div class="col-md-offset-1 col-md-10">
+                            <div class="contacts">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <img class="img-responsive" src="resources/images/bdlions.png">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <img class="img-responsive" src="resources/images/2nd_logo.png">
+                                    </div>
+                                    <div class="col-md-4">
+                                        <ul class="address">
+                                            <li class="head">Dhaka</li>
+                                            <li>168, Tejkuni Para</li>
+                                            <li>Gulshan-1, Dhaka, Bangladesh.</li>
+                                            <li>Tel: +88 (0)16 7811 2509</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </footer>
-        </div>
+
+                    <div class="slogan_bg">
+                        <div class="container">
+                            <div class="row" >
+                                <div class="col-md-offset-1 col-md-10">
+                                    <div class="slogan">
+                                        <p>Nobody Cares More Than Us</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="copyright_bg">
+                        <div class="container">
+                            <div class="row" >
+                                <div class="col-md-offset-1 col-md-10">
+                                    <div class="copyright">
+                                        <p>&copy; Copyright Real State&nbsp;&nbsp;|&nbsp;&nbsp;All Rights Reserved&nbsp;&nbsp;|&nbsp;&nbsp;<a href="">Terms and conditions</a>&nbsp;&nbsp;|&nbsp;&nbsp;</p>
+                                        <p><a href="https://nazmulislamredoy.wordpress.com/" target="_blank">Designed by Nazmul</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
     </body>
 </html>
