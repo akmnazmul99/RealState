@@ -182,16 +182,7 @@ ul.sub-menu li {
 
 
 
-.welcomemsg {
-    background-color: #FFFFFF;
-    font-size: 22px;
-    left: 0;
-    opacity: 0.7;
-    padding: 17px 30px;
-    position: absolute;
-    top: 44px;
-    z-index: 99;
-}
+
 
 .black {
     color: #000000;
@@ -500,7 +491,9 @@ p.intro {
     text-decoration: none;
     font-weight: 700;
 }
-
+.clearfix{
+    padding: 0;
+}
 
 /* Profiles */
 
@@ -681,6 +674,17 @@ table td {
         z-index:10;
         position:relative;
     }
+    
+    .welcomemsg {
+        background-color: #FFFFFF;
+        font-size: 22px;
+        left: 0;
+        opacity: 0.7;
+        padding: 17px 30px;
+        position: absolute;
+        top: 44px;
+        z-index: 99;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px){
@@ -707,6 +711,17 @@ table td {
         z-index:10;
         position:relative;
     }
+    
+    .welcomemsg {
+    background-color: #FFFFFF;
+    font-size: 22px;
+    left: 0;
+    opacity: 0.7;
+    padding: 17px 30px;
+    position: absolute;
+    top: 44px;
+    z-index: 99;
+}
 }
 
 
@@ -741,4 +756,15 @@ table td {
         z-index:10;
         position:relative;
     }
+    
+    .welcomemsg {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    left: 10px;
+    opacity: 0.7;
+    padding: 5px 10px;
+    position: absolute;
+    top: 44px;
+    z-index: 99;
+}
 }
